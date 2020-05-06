@@ -29,7 +29,7 @@ var randomNumber = Math.floor(Math.random() * (quotes.length-1));
     document.getElementById('quotedisplay').style.fontSize = '29px';
    
 } 
-setInterval(newQuote(), 3000)
+setInterval(newQuote, 3000)
 
 
     
